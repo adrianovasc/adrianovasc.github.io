@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+text-decoration: none;
+    
+}
+
+body {
+font-size: 100%;
+background: linear-gradient(68deg, #28313b, #485461)
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+.imagem{
+    height: 700px;
+}
+.botao{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 80px;
+    border: none;
+    box-shadow: black;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 60px;
+}
+    .botao:hover{
+        background-color: darkgrey;
+    }
